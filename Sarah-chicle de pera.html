@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link  rel= "stylesheet" type="text/css" href="Stylesheet-pera.css"> 
+	<script src="./chicles-pera.js"></script>
+	<title>chicles de pera</title>
+</head>
+<body>
+	<main class="content">
+		
+		<nav class="delivery">
+			<h3>
+				Introduce el código zip para calcular los gastos de envío
+			</h3>
+
+			<label for="zip-code">
+				Código zip
+			</label>
+
+			<input id="zip-code" type="text" placeholder="555333" />
+
+			<button id="calculate-delivery">
+				Calcular gastos de envío
+			</button>
+
+		</nav>
+		
+		<section class="cart">
+
+			<aside class="cartrow">
+
+				<source class="cartrow-info">
+					<img src="./assets/chicle.jpg" alt="chicle de pera" />
+					<h5>
+						<strong class="cartrow-info-units">
+							x1000
+						</strong>
+						unidades
+					</h5>
+				</source>
+
+				<h5><strong>5€</strong></h5>
+			</aside>
+
+			<aside class="cartrow">
+				
+				<p class="cartrow-info">
+					Gastos de envío
+				</p>
+
+				<strong id="delivery-cost">
+					-
+				</strong>
+				
+			</aside>
+			
+
+			<aside class="cartrow total">
+
+				<h4 class="cartrow-info">
+					Total
+				</h4>
+
+				<strong id="total-price">
+					-
+				</strong>
+			</aside>
+
+		</section>
+	</main>
+</body>

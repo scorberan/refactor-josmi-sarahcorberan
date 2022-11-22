@@ -1,0 +1,54 @@
+.content {
+    margin: 48px auto; 
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(400px, 500px);
+    align-items: stretch;
+}
+.cart {
+    padding: 12px 24px;
+    border-left: 1px solid #eee;
+}
+.cartrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    
+}
+
+.cartrow-info {
+    display: flex;
+    align-items: center;
+}
+.cartrow-info-units {
+    margin-right: 3px;
+}
+.cartrow strong {
+    font-size: 1.2em;
+}
+.cartrow img {
+    margin-right: 12px;
+    max-width: 120px;
+}
+.delivery {
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.delivery label {
+    display: block;
+    margin-bottom: 3px;
+}
+.delivery input {
+    margin-right: 12px;
+}
+
+.total {
+    padding-top: 12px;
+    border-top: 1px solid #222;
+}
+.total strong {
+    font-size: 1.5em;
+}
